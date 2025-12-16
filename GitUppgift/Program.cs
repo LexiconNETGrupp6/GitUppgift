@@ -17,6 +17,7 @@ namespace GitUppgift
             int sum = calc.Add(5, 3);
             int difference = calc.Subtract(10, 4);
             int product = calc.Multiply(2, 6);
+            double dProduct = calc.Multiply(0.2, 0.1);
             double result = calc.Divide(10, 2);
 >>>>>>> d91c75ff1001466a4294ebede95f6e33d85add52
         }
