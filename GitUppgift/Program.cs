@@ -4,8 +4,21 @@ namespace GitUppgift
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             Console.WriteLine("Hello, World?!");
             Console.WriteLine("Hello, World?");
+=======
+            Console.WriteLine("Goodbye, World?");
+            Console.WriteLine("Goodbye, World?");
+            Console.WriteLine("Hello, World!");
+
+            var calc = new Calculation();
+
+            int sum = calc.Add(5, 3);
+            int difference = calc.Subtract(10, 4);
+            int product = calc.Multiply(2, 6);
+            double result = calc.Divide(10, 2);
+>>>>>>> d91c75ff1001466a4294ebede95f6e33d85add52
         }
     }
 }
