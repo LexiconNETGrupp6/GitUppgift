@@ -4,10 +4,6 @@ namespace GitUppgift
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-            Console.WriteLine("Hello, World?!");
-            Console.WriteLine("Hello, World?");
-=======
             Console.WriteLine("Goodbye, World?");
             Console.WriteLine("Goodbye, World?");
             Console.WriteLine("Hello, World!");
@@ -19,7 +15,6 @@ namespace GitUppgift
             int product = calc.Multiply(2, 6);
             double dProduct = calc.Multiply(0.2, 0.1);
             double result = calc.Divide(10, 2);
->>>>>>> d91c75ff1001466a4294ebede95f6e33d85add52
         }
     }
 }
